@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="container">
+<div class="main">
+<h2>Login Now</h2>
+<form id="form_id" method="post" name="myform">
+<label>User Name :</label>
+<input type="text" name="username" id="username"/>
+<label>Password :</label>
+<input type="password" name="password" id="password"/>
+<a href="reset.html">forgot password?</a>
+<input type="button" value="Login" id="submit" onclick="validate()"/>
+<p>if you don't have an accont</p>
+<a href="signin.html">
+<input type="button" value="Sign in" id="submit">
+</a>
+<p><b>NOTE</b> <br> Use username : user and password : pass123</p>
+</form>
+</div>
+</div>    
+    <script src="script.js"></script>
+</body>
+</html>

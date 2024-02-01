@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart page</title>
+  <link rel="stylesheet" href="cart.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket">GROCO</i></a>
+        <nav class="navbar">
+            <a href="#home"><b>HOME</b></a>
+            <a href="#features"><b>FEATURES</b></a>
+            <a href="#products"><b>PRODUCTS</b></a>
+            <a href="#categories"><b>CATEGORIES</b></a>
+            <a href="#review"><b>REVIEWS</b></a>
+            <a href="#blogs"><b>BLOGS</b></a>
+        </nav>
+
+      <div class="box">
+        <div class="cart-count">0</div>
+        <ion-icon name="cart"  id="cart-icon" ></ion-icon>
+      </div>
+
+      <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+
+        </div>
+        
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">Rs.0</div>
+      </div>
+
+      <button class="btn-buy" id="btn-buy">Place Order</button>
+
+      <ion-icon name="close" id="cart-close"></ion-icon>
+
+      </div>
+    </div>
+  </header>
+  <img src="welcome.png" width="100%">
+  <div class="container">
+    <div class="shop-content">
+
+
+      <div class="food-box">
+        <div class="pic">
+          <img src="apple.webp" class="food-img">
+        </div>
+        <h2 class="food-title">Fresh Apple</h2>
+        <span class="food-price">Rs.240</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+
+      <div class="food-box">
+        <div class="pic"><img src="tomato.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh Tomato</h2>
+        <span class="food-price">Rs.30</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="mango.webp" class="food-img"></div>
+        <h2 class="food-title">Fresh Mango</h2>
+        <span class="food-price">Rs.80</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="watermelon.webp" class="food-img"></div>
+        <h2 class="food-title">Fresh Watermelon</h2>
+        <span class="food-price">Rs.100</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="onion.jpeg" class="food-img"></div>
+        <h2 class="food-title">Fresh Onion</h2>
+        <span class="food-price">Rs.30</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="potato.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh Potato</h2>
+        <span class="food-price">Rs.40</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+  
+      <div class="food-box">
+        <div class="pic"><img src="pomegranate.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh Pomagranate</h2>
+        <span class="food-price">Rs.200</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+  
+      <div class="food-box">
+        <div class="pic"><img src="carrot.webp" class="food-img"></div>
+        <h2 class="food-title">Fresh Carrot</h2>
+        <span class="food-price">Rs.65</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="cabbage.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh Cabbage</h2>
+        <span class="food-price">Rs.50</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="coconut.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh Coconut</h2>
+        <span class="food-price">Rs.40</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="chilli.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh Chilli</h2>
+        <span class="food-price">Rs.20</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="curry leaves.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh Curry leaves</h2>
+        <span class="food-price">Rs.10/bunch</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="corriander.webp" class="food-img"></div>
+        <h2 class="food-title">Fresh corriander leaves</h2>
+        <span class="food-price">Rs.20/bunch</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="mint leaves.webp" class="food-img"></div>
+        <h2 class="food-title">Fresh mint leaves</h2>
+        <span class="food-price">Rs.20/bunch</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="cauliflower.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh cauliflower</h2>
+        <span class="food-price">Rs.40</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="grapes.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh grapes</h2>
+        <span class="food-price">Rs.80</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="drumstick.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh drumstick</h2>
+        <span class="food-price">Rs.10</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="strawberry.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh strawberry</h2>
+        <span class="food-price">Rs.100</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="yam.webp" class="food-img"></div>
+        <h2 class="food-title">Fresh yam</h2>
+        <span class="food-price">Rs.40</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="mosambi.webp" class="food-img"></div>
+        <h2 class="food-title">Fresh mosambi</h2>
+        <span class="food-price">Rs.80</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="banana.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh banana</h2>
+        <span class="food-price">Rs.80</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="babycorn.png" class="food-img"></div>
+        <h2 class="food-title">Fresh babycorn</h2>
+        <span class="food-price">Rs.90</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="greenpeas.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh greenpeas</h2>
+        <span class="food-price">Rs.80</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      <div class="food-box">
+        <div class="pic"><img src="ginger.jpg" class="food-img"></div>
+        <h2 class="food-title">Fresh ginger</h2>
+        <span class="food-price">Rs.40</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+
+
+
+
+    </div>
+  </div>
+  <script src="cart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
